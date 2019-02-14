@@ -1,0 +1,20 @@
+<html>
+
+<form action='' method='post' novalidate>
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.cur1.label }}
+            {{ form.cur1 }}
+        </p>
+        <p>
+                {{ form.cur2.label }}
+                {{ form.cur2 }}
+        </p>
+        <p>
+                {{ form.get_exchange_rate }}
+            </p>
+
+</form>
+
+
+</html>

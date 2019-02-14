@@ -1,0 +1,22 @@
+<html>
+        <form action="" method="post" novalidate>
+                {{ form.hidden_tag() }}
+                <p>
+                    {{ form.stock_name.label }}
+                    {{ form.stock_name }}
+                </p>
+                <p>
+                    {{ form.intraday }}
+                </p>
+                <p>
+                    {{ form.daily }}
+                </p>
+                <p>
+                    {{ form.weekly }}
+                </p>
+                <p>
+                    {{ form.monthly }}
+                </p>
+            
+            </form>
+</html>
